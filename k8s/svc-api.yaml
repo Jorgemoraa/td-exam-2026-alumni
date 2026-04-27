@@ -8,4 +8,4 @@ spec:
     app: deply-api
   ports:
     - port: 80
-      targetPort: svc-router
+      targetPort: 3000
