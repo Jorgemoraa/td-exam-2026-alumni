@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("<placeholder>")
+  credentials = file("../../aesthetic-vent-494006-g0-f7aace8b0f31.json")
 
   project = var.gcp-project
   region  = var.gcp-region

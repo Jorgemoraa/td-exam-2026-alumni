@@ -7,25 +7,26 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: <placeholder>
+      app: deploy-api
   template:
     metadata:
       labels:
-        app: <placeholder>
+        app: deploy-api
     spec:
       containers:
         - name: router
-          image: <placeholder>
+          image: gcr.io/aesthetic-vent-494006-g0/router:latest
           ports:
             - containerPort: 3000
           volumeMounts:
-            - name: <placeholder>
+            - name: svc-router
               mountPath: /data
   volumeClaimTemplates:
     - metadata:
-        name: <placeholder>
+        name: svc-router
       spec:
-        accessModes: <placeholder>
+        accessModes: 
+          - ReadWriteOnce
         storageClassName: standard
         resources:
           requests:
