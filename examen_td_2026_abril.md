@@ -13,6 +13,7 @@
 - D) Puede usar afinidad/anti-afinidad
 
 **Solución:** 
+A, B, D
 
 ## **2. Sobre el API Server, elige las respuestas correctas:**
 
@@ -22,6 +23,7 @@
 - D) Ejecuta Pods
 
 **Solución:** 
+A, D
 
 
 ## **3. Elige la respuesta correcta sobre Terraform**
@@ -31,6 +33,7 @@
 - D) `terraform output` borra el estado actual
 
 **Solución:** 
+C
 
 ## **4. Sobre Pods, elige las respuestas correctas:**
 
@@ -40,6 +43,7 @@
 - D) Se reprograman automáticamente si fallan
 
 **Solución:** 
+A, D
 
 ## **5. Sobre ReplicaSet, elige las respuestas correctas:**
 
@@ -49,6 +53,7 @@
 - D) Es usado por Deployments
 
 **Solución:** 
+A, B, D
 
 ## **6. Sobre Deployments, elige las respuestas correctas:**
 
@@ -58,6 +63,7 @@
 - D) Permiten estrategias de actualización
 
 **Solución:**
+A, B, D
 
 ## **7. Selecciona que afirmación es incorrecta sobre Git y el comando Cherry-pick**
 - A) `git cherry-pick <hash>` aplica los cambios de un commit específico a la rama actual
@@ -66,7 +72,7 @@
 - D) Borra el commit original de la rama de origen
 
 **Solución:**
-
+D
 
 ## **8. Sobre StatefulSets, elige las respuestas correctas:**
 
@@ -76,6 +82,7 @@
 - D) Usan ReplicaSets por debajo
 
 **Solución:**
+A, B, D
 
 ## **9. Elige las respuestas correctas sobre Services:**
 
@@ -85,6 +92,7 @@
 - D) Ingress es un tipo de recurso Service
 
 **Solución:**
+A, B, C
 
 ## **10. Selecciona que afirmación es incorrecta sobre Cloud Functions y Cloud Run**
 - A) Cloud Functions es mejor para fragmentos de código pequeños basados en eventos
@@ -93,6 +101,7 @@
 - D) Cloud Run cobra por el tiempo que la instancia está procesando peticiones
 
 **Solución:**
+C
 
 ## **11. Elige las respuestas correctas sobre StorageClass:**
 
@@ -102,6 +111,7 @@
 - D) Puede definir parámetros del almacenamiento
 
 **Solución:** 
+A, B, D
 
 ## **12. Elige las respuestas correctas respecto a los ConfigMaps:**
 
@@ -111,14 +121,16 @@
 - D) Se pueden inyectar como variables de entorno
 
 **Solución:**
+A, B, D
 
-## **13. Elige las respuesta correcta sobre Cloud Functions (2nd Gen)**
+## **13. Elige la respuesta correcta sobre Cloud Functions (2nd Gen)**
 - A) Está construida sobre Cloud Run y Eventarc
 - B) Solo puede ser activada por peticiones TCP
 - C) Solo puede ser activada por peticiones HTTP
 - D) No permite control sobre la concurrencia de las instancias
 
 **Solución:**
+A
 
 ## **14. Elige las respuestas correctas sobre IAM:**
 
@@ -128,6 +140,7 @@
 - D) Permite cuentas de servicio
 
 **Solución:**
+A, B, D
 
 
 ## **15. Elige las respuestas correctas respecto a comandos Git**
@@ -137,6 +150,7 @@
 - D) `git commit -m` sirve para fusionar ramas
 
 **Solución:**
+B, C
 
 
 ## **16. Elige las respuestas correctas respecto a los workflows de GitHub Actions**
@@ -146,6 +160,7 @@
 - D) Un repositorio puede tener múltiples archivos de workflow para diferentes eventos
 
 **Solución:**
+B, D
 
 ## **17. Elige las respuestas correctas sobre Prometheus**
 - A) Prometheus utiliza un modelo "Push" para recolectar todas las métricas
@@ -162,6 +177,7 @@
 - D) La sección `on:` define los eventos que disparan el workflow
 
 **Solución:** 
+A, C, D
 
 ## **19. Que afirmación es correcta sobre Google Cloud Logging**
 - A) Cloud Logging permite centralizar los logs de Cloud Run, GKE y Cloud Functions
@@ -170,6 +186,7 @@
 - D) Los logs de Cloud Run se borran inmediatamente después de que la instancia se detiene
 
 **Solución:** 
+A
 
 ## **20. Que afirmaciones son correctas sobre el fichero de estado de Terraform**
 - A) El archivo `terraform.tfstate` contiene el mapeo entre el código y la infraestructura real
@@ -178,3 +195,4 @@
 - D) El estado solo puede guardarse de forma local en el disco del desarrollador
 
 **Solución:** 
+A, C
